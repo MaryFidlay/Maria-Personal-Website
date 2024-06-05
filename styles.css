@@ -1,5 +1,12 @@
 body {
+  width: auto;
+
   background-color: rgb(154, 231, 235);
+}
+
+.content {
+  width: auto;
+  height: auto;
 }
 
 .border-box {
@@ -31,11 +38,6 @@ body {
   position: absolute;
 }
 
-.content {
-  width: auto;
-  height: auto;
-}
-
 img {
   width: 600px;
   height: 600px;
@@ -53,10 +55,10 @@ img {
   height: 100px;
 
   padding: 0px;
-  font-size: 45px;
+  font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   z-index: 2;
-  margin-top: -110px;
+  margin-top: -90px;
   margin-left: 900px;
   text-decoration-line: none;
 }
@@ -116,4 +118,13 @@ img {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   position: absolute;
+}
+
+
+.content{
+  margin-left: 200px;
+  z-index: 5;
+  position: relative;
+  margin-top: 200px;
+  
 }
